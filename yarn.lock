@@ -9,29 +9,29 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@contentlayer/cli@0.3.1-dev.1":
-  version "0.3.1-dev.1"
-  resolved "https://registry.yarnpkg.com/@contentlayer/cli/-/cli-0.3.1-dev.1.tgz#32388d59de2ae9533b56e92098b910edb93c7b3c"
-  integrity sha512-uC9iw8Wwysm/2ta2nA8KbKWe8O0eWieoQtM1VRy3BUSZdYx7aqmrgzIzoif/sbVJzVXtbED+vE6w0orLNdHWhw==
+"@contentlayer/cli@0.3.1-dev.2":
+  version "0.3.1-dev.2"
+  resolved "https://registry.yarnpkg.com/@contentlayer/cli/-/cli-0.3.1-dev.2.tgz#9aefdea894b368de20b54f7d33b9a3c81ce80a37"
+  integrity sha512-eziouGCZLqlmvVj2NMspHvEHun+UimHjkFli9iXscqRy0dkpVVpJ5DDVw7CkLX5EbN4vRgZWOcQfqDsVUfjS6A==
   dependencies:
-    "@contentlayer/core" "0.3.1-dev.1"
-    "@contentlayer/utils" "0.3.1-dev.1"
+    "@contentlayer/core" "0.3.1-dev.2"
+    "@contentlayer/utils" "0.3.1-dev.2"
     clipanion "^3.2.0-rc.16"
     typanion "^3.12.1"
 
-"@contentlayer/client@0.3.1-dev.1":
-  version "0.3.1-dev.1"
-  resolved "https://registry.yarnpkg.com/@contentlayer/client/-/client-0.3.1-dev.1.tgz#9c3da9ecd207bf31d8ccaf94039951498cb38aa9"
-  integrity sha512-bnwkw5VY6NJhv4aexQFOFz7oTRTtn0FYHmknSQHW4RAPkXlEJfXK3TRnnE+AMboaK5Mtax91mCzW/7lezWcqGQ==
+"@contentlayer/client@0.3.1-dev.2":
+  version "0.3.1-dev.2"
+  resolved "https://registry.yarnpkg.com/@contentlayer/client/-/client-0.3.1-dev.2.tgz#c0be67033ac965909537cdf1655a6f9dfec43704"
+  integrity sha512-d15lHUZuxzxGWE0f7d6A3oyo572aMSr1lNMC9MITVq8iQVFyVF08lfBKdRG4bMjT+iEwnoyUDUX74elelfbY+Q==
   dependencies:
-    "@contentlayer/core" "0.3.1-dev.1"
+    "@contentlayer/core" "0.3.1-dev.2"
 
-"@contentlayer/core@0.3.1-dev.1":
-  version "0.3.1-dev.1"
-  resolved "https://registry.yarnpkg.com/@contentlayer/core/-/core-0.3.1-dev.1.tgz#803868e6953a47dc607b0e953541f1d2759b1eb4"
-  integrity sha512-JPrEaMIPrXIWjoJUNh3PbgkfZr2EGftqQoRFj52MrPq5GFjG0KSIk4/V9T2bIYeeuXo98j+7nxsR2518Sg1r3A==
+"@contentlayer/core@0.3.1-dev.2":
+  version "0.3.1-dev.2"
+  resolved "https://registry.yarnpkg.com/@contentlayer/core/-/core-0.3.1-dev.2.tgz#bac681e89627836b0484c3e2763f0bc666decaa6"
+  integrity sha512-9Zg0WWeyIo6LCEp5/Nr9d69IwhT1xSBpDM3JhST4e+uikGjO6LLqbeIHTx860YHdXI9oNbaP8wI2oRmuJrNVkg==
   dependencies:
-    "@contentlayer/utils" "0.3.1-dev.1"
+    "@contentlayer/utils" "0.3.1-dev.2"
     camel-case "^4.1.2"
     comment-json "^4.2.3"
     esbuild "0.17.x"
@@ -45,13 +45,13 @@
     type-fest "^3.5.7"
     unified "^10.1.2"
 
-"@contentlayer/source-files@0.3.1-dev.1":
-  version "0.3.1-dev.1"
-  resolved "https://registry.yarnpkg.com/@contentlayer/source-files/-/source-files-0.3.1-dev.1.tgz#0a3467d79c6b1705e71ad80f1c7bf99a9f2c80f6"
-  integrity sha512-H/+TXe6dJcrSit/rYKz5NM7C/Ej0EUfdsoaNUadwj6KbJKsZB1TiCMTK+fU/vBsw9bRN0IJBpdiCW8I3v/g+Cw==
+"@contentlayer/source-files@0.3.1-dev.2":
+  version "0.3.1-dev.2"
+  resolved "https://registry.yarnpkg.com/@contentlayer/source-files/-/source-files-0.3.1-dev.2.tgz#04f0151c6f370e5f4139eaede0775172fa257889"
+  integrity sha512-CmbOHsOSxRtt1fuUJTTCIL//BAw2cWLdj0u6QUN3q/m16KTfccc71LC8WPOk6gby0+gsTdJ1aFZSsdrnXLFY3Q==
   dependencies:
-    "@contentlayer/core" "0.3.1-dev.1"
-    "@contentlayer/utils" "0.3.1-dev.1"
+    "@contentlayer/core" "0.3.1-dev.2"
+    "@contentlayer/utils" "0.3.1-dev.2"
     chokidar "^3.5.3"
     fast-glob "^3.2.12"
     gray-matter "^4.0.3"
@@ -62,19 +62,19 @@
     yaml "^1.10.2"
     zod "^3.20.6"
 
-"@contentlayer/source-remote-files@0.3.1-dev.1":
-  version "0.3.1-dev.1"
-  resolved "https://registry.yarnpkg.com/@contentlayer/source-remote-files/-/source-remote-files-0.3.1-dev.1.tgz#2a04a3cae1f933310460436e96b412c0a7c3c04b"
-  integrity sha512-FZcGqamywydPD9+2ZLNKwwK2oIZJUY3IHm59A1xvRUVoum41BJdonlu7c3s8fs2Jfvgn45FuyrXyUPFwxYShZw==
+"@contentlayer/source-remote-files@0.3.1-dev.2":
+  version "0.3.1-dev.2"
+  resolved "https://registry.yarnpkg.com/@contentlayer/source-remote-files/-/source-remote-files-0.3.1-dev.2.tgz#3eaf73b4b68299aaa67d2bc763d106daf81d5ce0"
+  integrity sha512-V8G3VqC0BO/9s081I0Niqs3zwU3+SD14FmrmNbxju5rJKna57dBC/6xHESrxwAsSv0fU7MCvqZUUDebrUqNp4w==
   dependencies:
-    "@contentlayer/core" "0.3.1-dev.1"
-    "@contentlayer/source-files" "0.3.1-dev.1"
-    "@contentlayer/utils" "0.3.1-dev.1"
+    "@contentlayer/core" "0.3.1-dev.2"
+    "@contentlayer/source-files" "0.3.1-dev.2"
+    "@contentlayer/utils" "0.3.1-dev.2"
 
-"@contentlayer/utils@0.3.1-dev.1":
-  version "0.3.1-dev.1"
-  resolved "https://registry.yarnpkg.com/@contentlayer/utils/-/utils-0.3.1-dev.1.tgz#2d921e28c2dcaf8ddf3e04b680e940a194b36dbb"
-  integrity sha512-94ZFYpSowvVIwTxtwf+XyPFJMD1mVcLrwWkDSnzRqWtKXQVUcck4GB7S6RK9htkEbFqLanMKQjpC1h0mlLi+vg==
+"@contentlayer/utils@0.3.1-dev.2":
+  version "0.3.1-dev.2"
+  resolved "https://registry.yarnpkg.com/@contentlayer/utils/-/utils-0.3.1-dev.2.tgz#250153bc84fdd39e7ab8aaacd98d6e5ef2db0b5b"
+  integrity sha512-t5wzy/7ClJGh+M15XGB2xsV+SECa1erVOAbUVArBXy7kk6pVGpaUeA5gKfpziF27xQXSeoLNTEEfSW1AHSFfEA==
   dependencies:
     "@effect-ts/core" "^0.60.2"
     "@effect-ts/otel" "^0.14.0"
@@ -965,17 +965,17 @@ comment-json@^4.2.3:
     has-own-prop "^2.0.0"
     repeat-string "^1.6.1"
 
-contentlayer@0.3.1-dev.1:
-  version "0.3.1-dev.1"
-  resolved "https://registry.yarnpkg.com/contentlayer/-/contentlayer-0.3.1-dev.1.tgz#7b0054a4d699408f14cc612a57e60993d46677b0"
-  integrity sha512-OH/loBSXgZSUEq4k/Qtcnn2uiMG0aR2q31df1ii9ViFq8pq7pSvSRk+5mr3S+AaRA2M5xQ4qwCoMq9Te9AfORA==
+contentlayer@0.3.1-dev.2:
+  version "0.3.1-dev.2"
+  resolved "https://registry.yarnpkg.com/contentlayer/-/contentlayer-0.3.1-dev.2.tgz#ed631d5433e528aa004042e9e500067e5e36a877"
+  integrity sha512-hKPRgBvhmxqokm8JrvgqtZLw4d3/iR4VQczOH2YBJBEnx3jYYXqBOei6dfh6S8TYWU8z7m2y6Lm7XDzom+arJw==
   dependencies:
-    "@contentlayer/cli" "0.3.1-dev.1"
-    "@contentlayer/client" "0.3.1-dev.1"
-    "@contentlayer/core" "0.3.1-dev.1"
-    "@contentlayer/source-files" "0.3.1-dev.1"
-    "@contentlayer/source-remote-files" "0.3.1-dev.1"
-    "@contentlayer/utils" "0.3.1-dev.1"
+    "@contentlayer/cli" "0.3.1-dev.2"
+    "@contentlayer/client" "0.3.1-dev.2"
+    "@contentlayer/core" "0.3.1-dev.2"
+    "@contentlayer/source-files" "0.3.1-dev.2"
+    "@contentlayer/source-remote-files" "0.3.1-dev.2"
+    "@contentlayer/utils" "0.3.1-dev.2"
 
 core-util-is@^1.0.3:
   version "1.0.3"
@@ -2148,13 +2148,13 @@ napi-build-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/napi-build-utils/-/napi-build-utils-1.0.2.tgz#b1fddc0b2c46e380a0b7a76f984dd47c41a13806"
   integrity sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==
 
-next-contentlayer@0.3.1-dev.1:
-  version "0.3.1-dev.1"
-  resolved "https://registry.yarnpkg.com/next-contentlayer/-/next-contentlayer-0.3.1-dev.1.tgz#25d0a3206c9d623b2f75e2e09acce8639ee87c2f"
-  integrity sha512-FG4ZJqCXjgFZFdyYJUqkY6mEcDKlUsLuEAmgl6eKFnkrTrHJEd9nSVU8sLtn7afoPMq1a5UDgNf/k56ozJ3t+A==
+next-contentlayer@0.3.1-dev.2:
+  version "0.3.1-dev.2"
+  resolved "https://registry.yarnpkg.com/next-contentlayer/-/next-contentlayer-0.3.1-dev.2.tgz#03fc38d7292d308e46d2bcf1061f135c390d49eb"
+  integrity sha512-MoDR5Z/yc0QmgYUqME7xbZvaDEv2F4YSx7Z/PFzlzXbVRbfv8o1dsod2wjz1x1kdsRoATvDClL2ZwOHQuLLQqg==
   dependencies:
-    "@contentlayer/core" "0.3.1-dev.1"
-    "@contentlayer/utils" "0.3.1-dev.1"
+    "@contentlayer/core" "0.3.1-dev.2"
+    "@contentlayer/utils" "0.3.1-dev.2"
 
 next@13.1.2:
   version "13.1.2"
